@@ -70,14 +70,6 @@
         nav a {
             -webkit-tap-highlight-color: transparent;
         }
-
-        nav a:focus {
-            outline: none;
-        }
-
-        nav a:focus-visible {
-            outline: none;
-        }
        /* nav a:hover {
             background-color: #38BDF8;
             color: #0F172A; 
