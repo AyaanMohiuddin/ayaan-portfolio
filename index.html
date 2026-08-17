@@ -6,7 +6,7 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">  
 </head>
-<body>
+<body id= "top">
     <header>
         <img src="profile.jpg" alt="Profile Picture" class="profile-pic">   
         <h1>Ayaan Mohiuddin</h1>
@@ -68,11 +68,35 @@
         
         <section id="contact" class="section">
             <h2>Contact Me</h2>
-            <form class="contact-form" action="https://formsubmit.co/ayaanmohiuddin77@gmail.com" method="POST" >
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea rows="5" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
+            <form class="contact-form"
+      action="https://formsubmit.co/ayaanmohiuddin77@gmail.com"
+      method="POST">
+
+    <input
+        type="text"
+        name="name"
+        placeholder="Your Name"
+        required>
+
+    <input
+        type="email"
+        name="email"
+        placeholder="Your Email"
+        required>
+
+    <textarea
+        name="message"
+        rows="5"
+        placeholder="Your Message"
+        required></textarea>
+
+    <button type="submit">Send Message</button>
+                
+    <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission">
+
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="hidden" name="_template" value="table">
             </form>
         </section>
     </div>
@@ -82,9 +106,9 @@
     </div>
     <footer>
         <p>&copy; 2026 Ayaan Mohiuddin. All Rights Reserved.</p> 
-            <a class="Links" href="https://github.com/AyaanMohiuddin">GitHub</a>
-            <a class="Links" href="https://www.linkedin.com/in/ayaan-mohiuddin-1a142937b/">LinkedIn</a> 
-            <a class="Links" href="https://www.instagram.com/__ayaan22__/">Instagram</a> 
+            <a class="Links" href="https://github.com/AyaanMohiuddin" target="_blank">GitHub</a>
+            <a class="Links" href="https://www.linkedin.com/in/ayaan-mohiuddin-1a142937b/" target="_blank">LinkedIn</a> 
+            <a class="Links" href="https://www.instagram.com/__ayaan22__/" target="_blank">Instagram</a> 
         </footer>
         <script src="script.js"></script>
 </body>
