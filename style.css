@@ -48,6 +48,7 @@
         }
 
         nav a {
+            -webkit-tap-highlight-color: transparent;
             background-color:#334155;
             color: white;
             text-decoration: none;
@@ -92,9 +93,6 @@
         .section {
             margin-bottom: 2rem;
             scroll-margin-top: 100px; 
-        }
-        nav a {
-            -webkit-tap-highlight-color: transparent;
         }
         .section h2 {
             color: #ffffff;
