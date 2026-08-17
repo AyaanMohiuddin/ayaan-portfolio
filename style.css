@@ -41,7 +41,7 @@
             background-color: #1E293B;
             padding: 0.5rem 0;
             position: sticky;
-            top: max(10px, env(safe-area-inset-top));;
+            top: 0;
             z-index: 1000;
             border-bottom-left-radius: 5px;
             border-bottom-right-radius: 5px;    
